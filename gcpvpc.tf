@@ -4,7 +4,7 @@ provider "google" {
 }
 
 resource "google_compute_network" "vpc_network" {
-  name                    = "dashath_Vpc"
+  name                    = "dashathVpc"
   auto_create_subnetworks = false  # Set to true if you want auto-created subnets
 }
 
